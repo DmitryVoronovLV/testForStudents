@@ -1,0 +1,8 @@
+.horizontal-center{
+    transform: translateY(50%);
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:5px;
+}
