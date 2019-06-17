@@ -1,6 +1,7 @@
-<?php require_once('./header.php'); ?>
+<?php require_once('./components/header.php'); ?>
     
-    <div class="container horizontal-center">
+    <div class="container horizontal-center-wrapper">
+        <div class="horizontal-center">
         <h1 class="text-center">Testa uzdevums</h1>
         <form action="quiz.php" method="POST">
             <div class="form-group">
@@ -16,9 +17,14 @@
                     ?>
                 </select>
             </div>
+            <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                <input type="checkbox" class="custom-control-input" name="cheatMode" id="cheatMode">
+                <label class="custom-control-label" for="cheatMode">Enter cheat mode</label>
+            </div>
             <input type="submit" class="btn btn-primary" value="Start" />
         </form>
+        </div>
     </div>
 
 
-<?php require_once('./footer.php'); ?>
+<?php require_once('./components/footer.php'); ?>

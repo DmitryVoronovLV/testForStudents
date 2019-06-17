@@ -1,3 +1,5 @@
+-- custom written scripts and prepared data
+
 create table tests(
     id int auto_increment primary key not null,
     title varchar(200) unique not null
@@ -75,7 +77,7 @@ insert into questions (text,tid) values ('What weird food combinations do you re
 ('Where do you get most of the decorations for your home?',5),
 ('What food is delicious but a pain to eat?',5),
 ('Who was your craziest / most interesting teacher',5),
-('What “old person” things do you do?',5);
+('What ''old person'' things do you do?',5);
 -- 190 
 insert into answers (text,qid,correct) values ('Scooter Across Australia', 1, 1),
 ('Live on the Streets', 1, 0),

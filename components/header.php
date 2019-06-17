@@ -9,10 +9,9 @@
     <title>Tests</title>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-    https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js
 </head>
 <body>
     <?php 
         require_once('./DataBase.php'); 
-        $db = new DataBase() or exit("No");
+        $db = new DataBase() or exit("Sorry, I'm busy today");
     ?>
